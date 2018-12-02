@@ -1,0 +1,13 @@
+﻿@using System.Globalization
+@page "/"
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+
+<p>Current Culture: <strong>@CultureInfo.CurrentCulture.Name</strong></p>
+<p>Current UI Culture: <strong>@CultureInfo.CurrentUICulture.Name</strong></p>
+
+<p>The current date and time is: <strong>@DateTime.Now</strong></p>
