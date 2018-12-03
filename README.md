@@ -24,3 +24,5 @@ public void Configure(IBlazorApplicationBuilder app)
 ``` 
 
 This will set the `CultureInfo.CurrentCulture` and `CultureInfo.CurrentUICulture` for your Blazor application based on the language settings of the clients browser.
+
+![Screenshot of BlazorLocalisation](https://github.com/chrissainty/BlazoredLocalisation/blob/master/assets/BlazorLocalisation.jpg)
